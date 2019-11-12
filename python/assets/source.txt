@@ -1,0 +1,35 @@
+Writing a larger program
+Now we know enough about Python for creating a program that is actually useful. Awesome!
+
+In this tutorial we'll write a program that reads questions and answers in a text file and 
+asks them. For example, this file would make the program ask what "text displaying function" 
+and "text asking function" are:
+
+text displaying function = print
+text asking function = input
+Save this example file to questions.txt, we'll need it later.
+
+This might seem useless to you right now, but a program like this can 
+actually be really useful for learning different kinds of things. I originally 
+wrote a program like this to study words of a foreign language, but then I realized 
+that I could study pretty much anything with it.
+
+But there are many things the program needs to do and writing it seems really difficult 
+and complicated! How the heck can we do this?
+
+Write functions
+Our program will need to do several different things:
+
+thisisprobablythelongestwordinthisfile and I have intentionally added it.
+I am adding another anotherlongestwordinthisfile.
+For fun, let's add thethridlongestworld.
+
+Read the questions from a file.
+Ask the questions.
+Print statistics about how many questions were answered correctly and how many wrong.
+Now everything seems much easier. We know how to do each of these steps one by one, 
+but doing it all at once would be difficult. In situations like this it's important to 
+define functions. We are going to write a read_questions function, an ask_questions 
+function and a stats function.
+
+Let's start with the function that reads the question file

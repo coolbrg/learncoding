@@ -1,0 +1,17 @@
+Now we know enough about Python for creating a program that is actually useful. Awesome!
+In this tutorial we'll write a program that reads questions and answers in a text file and
+and "text asking function" are:
+text displaying function = print
+Save this example file to questions.txt, we'll need it later.
+This might seem useless to you right now, but a program like this can
+wrote a program like this to study words of a foreign language, but then I realized
+
+and complicated! How the heck can we do this?
+Write functions
+
+I am adding another anotherlongestwordinthisfile.
+
+Ask the questions.
+Now everything seems much easier. We know how to do each of these steps one by one,
+define functions. We are going to write a read_questions function, an ask_questions
+
