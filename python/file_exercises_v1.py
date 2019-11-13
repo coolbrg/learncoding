@@ -66,8 +66,7 @@ def longest_word(path):
 def random_line_and_length(path):
     f = open(path, "r")
     lines = [line for line in f.read().splitlines() if line != '']
-    random_no = random.randint(1, len(lines))
-    random_line = lines[random_no]
+    random_line = random.choice(lines)
     print("Random line is {}.\nLength is {}.".format(
         random_line, len(random_line)))
 
